@@ -1,5 +1,5 @@
 html {
-  font-family: "Roboto", sans-serif;
+  font-family: Roboto, sans-serif;
 }
 
 h1, h2 {
@@ -98,7 +98,7 @@ section {
 }
 
 tbody tr:nth-child(odd) {
-  background-color: #98dEdd;
+  background-color: #98dedd;
 }
 
 table {
