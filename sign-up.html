@@ -18,10 +18,9 @@
     <li><a href="#nav">Jump to navigation</a></li>
   </ul>
 
-  <main>
-  <header>
-    <nav class="island-1-2">
-      <ul class="nav list-group">
+  <header role="banner">
+    <nav id="nav" tabindex="0" role="navigation" class="island-1-2 push-0">
+      <ul class="nav list-group push-0">
         <li class="wellpayed">WELLPAYED</li>
         <li><a href="index.html">Home</a></li>
         <li><a href="tour.html">Tour</a></li>
@@ -30,89 +29,99 @@
     </nav>
 
     <div class="container-banner embed embed-3by2">
-      <img class="img-flex chop embed-item" src="images/sign-up.jpg" alt="">
+      <img role="presentation" class="img-flex chop embed-item" src="images/sign-up.jpg" alt="">
     </div>
   </header>
 
-<form class="push-0 header-container right-banner" method="POST" action="https://formspree.io">
-  <div class="form-container grey-border gutter-2 pad-b-1-2">
-    <h1 class="pad-b-1-2 pad-t-1-2">WELLPAYED</h1>
-    <div class="push-1-2">
-      <label for="email">Email</label>
-      <input id="email" type="email" placeholder="me@me.com" required>
-    </div>
-    <div class="push-1-2">
-      <label for="password">Password</label>
-      <input id="password" type="password">
-    </div>
-    <div class="push-1-2 milli">
-      <input type="checkbox" id="remember" name="remember" value="remember">
-      <label for="remember"> Remember this device </label><br>
-    </div>
-    <div class="push-1-2">
-      <button class="btn btn-colour" type="submit" name="submit">Submit</button>
-    </div>
-    <p class="push-1-2">OR</p>
-    <div class="push-1-2">
-      <button class="btn btn-colour" type="button" name="button">Google Sign Up</button>
-    </div>
-    <a href="#" class="push-1-2">Forgot my password</a>
-      <button class="btn btn-colour">Get Started</button>
-  </div>
-</form>
+  <main role="main" id="main" tabindex="0">
+    <form class="right-banner" method="POST" action="https://formspree.io">
+      <div class="form-container gutter pad-b-1-4 pad-t flex">
+        <fieldset class="push-0 form-container">
+          <legend class="exa push-0">WELLPAYED</legend>
+          <div>
+            <label class="mega" for="email">Email</label>
+            <input id="email" tabindex="0" type="email" placeholder="me@me.com" aria-label="Place your email usin @ atribute" required>
+          </div>
+          <div class="push-1-2">
+            <label class="mega" for="password">Password</label>
+            <input id="password" tabindex="0" type="password">
+          </div>
+          <div class="push-1-2 milli">
+            <input type="checkbox" id="remember" tabindex="0" name="remember" value="remember">
+            <label for="remember" class="mega"> Remember this device </label><br>
+          </div>
+          <div class="center-flow">
+            <div class="push-1-2">
+              <button class="btn btn-colour mega" type="submit">Submit</button>
+            </div>
+            <p class="push-1-2 mega">OR</p>
+            <div class="push-1-2">
+              <button class="btn btn-colour mega" type="button">Google Sign Up</button>
+            </div>
+            <div class="push-1-2">
+              <a href="#" class="mega">Forgot my password</a>
+            </div>
+            <div class="push-1-2">
+              <button class="btn btn-colour mega" type="button">Get Started</button>
+            </div>
+          </div>
+        </fieldset>
+      </div>
+    </form>
 
-</main>
+    <section>
+      <div class="center-content-horizontal push-2 pad-t">
+        <a class="icon-link gutter name-icon" href="./tour.html#payroll-id">Payroll
+      <img role="presentation" class="i-96" src="images/payroll.svg" alt="">
+        </a>
+        <a class="icon-link gutter name-icon" href="./tour.html#benefits-id">Benefits
+      <img role="presentation" class="i-96" src="images/benefits.svg" alt="">
+        </a>
+        <a class="icon-link gutter name-icon" href="#">Price
+        <img role="presentation" class="i-96" src="images/price.svg" alt="">
+        </a>
+        <a class="icon-link gutter name-icon" href="./tour.html#timetool-id">Time Tool
+      <img role="presentation" class="i-96" src="images/timetools.svg" alt="">
+        </a>
+      </div>
+    </section>
+  </main>
 
-<div class="center-content-horizontal push-2 pad-t">
-  <a class="icon-link gutter" href="./tour.html#payroll-id">
-    <img  class="i-96" src="images/payroll.svg" alt="">
-  </a>
-  <a class="icon-link gutter" href="./tour.html#benefits-id">
-    <img class="i-96" src="images/benefits.svg" alt="">
-  </a>
-  <a class="icon-link gutter" href="#">
-    <img class="i-96" src="images/price.svg" alt="">
-  </a>
-  <a class="icon-link gutter" href="./tour.html#timetool-id">
-    <img class="i-96" src="images/timetools.svg" alt="">
-  </a>
-</div>
-
-<footer class="footer gutter-2 pad-t-1-2 grid">
-  <div class="unit xs-1 m-1-4 l-1-4">
-    <h3 class="push-0 push-1-2 mega">Address</h3>
-    <ul class="list-group micro">
-      <li>24th Cumberland St.</li>
-      <li>Ottawa,</li>
-      <li>Ontario</li>
-      <li>K1V8T6</li>
-    </ul>
-  </div>
-  <div class="unit xs-1 m-1-4 l-1-4">
-    <h3 class="push-1-2 mega">Company</h3>
-    <dl class="micro">
-      <dt class="bold">Monday-Friday</dt>
+  <footer role="contentinfo" class="footer gutter-2 pad-t-1-2 grid">
+    <div class="unit xs-1 m-1-4 l-1-4">
+      <h1 class="h2white push-0 push-1-2 mega">Address</h1>
+      <ul class="list-group micro">
+        <li>24th Cumberland St.</li>
+        <li>Ottawa,</li>
+        <li>Ontario</li>
+        <li>K1V8T6</li>
+      </ul>
+    </div>
+    <div class="unit xs-1 m-1-4 l-1-4">
+      <h2 class="push-1-2 mega">Company</h2>
+      <dl class="micro">
+        <dt class="bold">Monday-Friday</dt>
         <dd class="push-0 push-1-8">8:00AM to 11:00PM</dd>
-      <dt class="bold">Saturday-Sunday</dt>
+        <dt class="bold">Saturday-Sunday</dt>
         <dd>9:00AM to 12:00PM</dd>
-    </dl>
-  </div>
-  <div class="unit xs-1 m-1-4 l-1-4">
-    <h3 class="push-1-2 mega">Contact</h3>
-    <ul class="list-group micro">
-      <li>HR@Humanresources.com</li>
-      <li>info@Humanresources.com</li>
-      <li>contact@Humanresources.com</li>
-    </ul>
-  </div>
+      </dl>
+    </div>
+    <div class="unit xs-1 m-1-4 l-1-4">
+      <h3 class="push-1-2 mega">Contact</h3>
+      <ul class="list-group micro">
+        <li>HR@Humanresources.com</li>
+        <li>info@Humanresources.com</li>
+        <li>contact@Humanresources.com</li>
+      </ul>
+    </div>
 
-  <ul class="social list-group img-flex unit xs-1 s-1 m-1 l-1-4">
-    <li><a href="#"><img src="images/instagram.svg" alt="Instagram"></a></li>
-    <li><a href="#"><img src="images/facebook.svg" alt="Facebook"></a></li>
-    <li><a href="#"><img src="images/youtube.svg" alt="YouTube"></a></li>
-  </ul>
-  <small class="contentinfo copyright text-center unit xs-1 m-1 l-1">© HR WELLPAYED</small>
-</footer>
+    <ul class="social list-group img-flex unit xs-1 s-1 m-1 l-1-4">
+      <li><a href="#"><img src="images/instagram.svg" alt="Instagram"></a></li>
+      <li><a href="#"><img src="images/facebook.svg" alt="Facebook"></a></li>
+      <li><a href="#"><img src="images/youtube.svg" alt="YouTube"></a></li>
+    </ul>
+    <small class="copyright text-center unit xs-1 m-1 l-1">© HR WELLPAYED</small>
+  </footer>
 
 </body>
 </html>
