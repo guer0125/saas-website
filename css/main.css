@@ -1,14 +1,5 @@
 html {
-  font-family: 'Roboto', sans-serif;
-}
-
-*, *::before, *::after {
-  box-sizing: inherit;
-}
-
-body {
-  margin: 0;
-  padding: 0;
+  font-family: "Roboto", sans-serif;
 }
 
 h1, h2 {
@@ -18,7 +9,7 @@ h1, h2 {
 }
 
 header {
-  background-color: #3FC9C7;
+  background-color: #3fc9c7;
   padding: 0;
 }
 
@@ -26,11 +17,9 @@ header {
   margin: 0;
   padding: 0;
   list-style-type: none;
-  font-size: 1.125rem;
 }
 
 .wellpayed {
-  font-weight: 900;
   color: #fff;
 }
 
@@ -76,7 +65,6 @@ header {
   background-color: #157062;
   border-top: 3px solid #157062;
   color: #fff;
-  font-weight: 300;
 }
 
 .social {
@@ -91,12 +79,12 @@ header {
 .copyright {
   padding: 0 1rem;
   width: 100%;
-  background-color: #3FC9C7;
+  background-color: #3fc9c7;
 }
 
 .btn-colour {
-  background-color: #3FC9C7;
-  border: 4px solid #3FC9C7;
+  background-color: #3fc9c7;
+  border: 4px solid #3fc9c7;
   border-radius: 8px;
 }
 
@@ -106,11 +94,11 @@ header {
 }
 
 section {
-  border-top:  4px solid #157062;
+  border-top: 4px solid #157062;
 }
 
 tbody tr:nth-child(odd) {
-  background-color: #98DEDD;
+  background-color: #98dEdd;
 }
 
 table {
@@ -119,13 +107,6 @@ table {
 
 .medical {
   width: 7em;
-}
-
-.popular {
-  width: 6em;
-
-td {
-  font-weight: 300;
 }
 
 @media only screen and (min-width: 60em) {
