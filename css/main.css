@@ -31,11 +31,11 @@ header {
 }
 
 .nav a:hover {
-  color: #3fc9c7;
+  color: #000;
 }
 
 .nav .current {
-  background-color: #157062;
+  background-color: #000;
 }
 
 .bottom-left {

@@ -202,7 +202,6 @@ svg.img-flex {
 }
 
 .embed-item, .embed__item {
-  min-height: 100%;
   left: 0;
   position: absolute;
   top: 0;
