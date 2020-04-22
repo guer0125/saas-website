@@ -109,11 +109,6 @@ section {
   border-top:  4px solid #157062;
 }
 
-.reverse:nth-child(2) {
-  display: flex;
-  order: 1;
-}
-
 tbody tr:nth-child(odd) {
   background-color: #98DEDD;
 }
@@ -121,6 +116,13 @@ tbody tr:nth-child(odd) {
 table {
   min-width: 50em;
 }
+
+.medical {
+  width: 7em;
+}
+
+.popular {
+  width: 6em;
 
 td {
   font-weight: 300;
