@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 476.8 898.4" style="enable-background:new 0 0 476.8 898.4;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;stroke:#000000;stroke-width:0.9813;stroke-miterlimit:10;}
+	.st1{fill:#FFFFFF;stroke:#000000;stroke-width:0.7073;stroke-miterlimit:10;}
+	.st2{fill:#F1F2F2;stroke:#000000;stroke-miterlimit:10;}
+	.st3{fill:#058275;}
+	.st4{font-family:'MyriadPro-Regular';}
+	.st5{font-size:18px;}
+	.st6{font-size:28px;}
+	.st7{fill:#F1F2F2;}
+	.st8{font-size:19.9215px;}
+	.st9{fill:#F1F2F2;stroke:#000000;stroke-width:1.041;stroke-miterlimit:10;}
+</style>
+<path class="st0" d="M409.9,882.3H62.3c-25,0-45.5-20.5-45.5-45.5V60.2c0-25,20.5-45.5,45.5-45.5h347.7c25,0,45.5,20.5,45.5,45.5
+	v776.5C455.4,861.8,435,882.3,409.9,882.3z"/>
+<path class="st1" d="M393,789.4h-314c-18,0-32.8-14.8-32.8-32.8V301.4c0-18,14.8-32.8,32.8-32.8h314c18,0,32.8,14.8,32.8,32.8v455.2
+	C425.8,774.6,411,789.4,393,789.4z"/>
+<path class="st2" d="M409.9,45.4H61.6c-8.4,0-15.3,6.9-15.3,15.3v288.7c0,8.4,6.9,15.3,15.3,15.3h348.3c8.4,0,15.3-6.9,15.3-15.3
+	V60.8C425.2,52.3,418.3,45.4,409.9,45.4z"/>
+<path class="st3" d="M410.2,93.5H59.6c-7.8,0-14.2,6.4-14.2,14.2v244.2c0,7.8,6.4,14.2,14.2,14.2h350.6c7.8,0,14.2-6.4,14.2-14.2
+	V107.7C424.4,99.9,418,93.5,410.2,93.5z"/>
+<text transform="matrix(1 0 0 1 58.5501 74.4016)" class="st4 st5">Employee</text>
+<text transform="matrix(1 0 0 1 69.3307 152.542)" class="st4 st5">Good morning,</text>
+<text transform="matrix(1 0 0 1 347.3918 150.6882)" class="st4 st5">5:00pm</text>
+<text transform="matrix(1 0 0 1 68.8692 192.3544)" class="st4 st6">You’re clocked in.</text>
+<path class="st7" d="M369.1,300.7H97.8c-0.9,0-1.6-0.7-1.6-1.6v-44.2c0-0.9,0.7-1.6,1.6-1.6h271.3c0.9,0,1.6,0.7,1.6,1.6v44.2
+	C370.7,300,370,300.7,369.1,300.7z"/>
+<text transform="matrix(1 0 0 1 179.9083 285.1736)" class="st4 st6">Clock out.</text>
+<path class="st3" d="M327.6,671H161.3c-0.6,0-1.1-0.5-1.1-1.1v-36.2c0-0.6,0.5-1.1,1.1-1.1h166.3c0.6,0,1.1,0.5,1.1,1.1v36.2
+	C328.7,670.5,328.2,671,327.6,671z"/>
+<text transform="matrix(1.142 0 0 1 226.0679 660.1426)" class="st7 st4 st8">Edit</text>
+<path class="st9" d="M386.1,599.9H91.9c-0.9,0-1.6-0.7-1.6-1.6v-44.1c0-0.9,0.7-1.6,1.6-1.6h294.2c0.9,0,1.6,0.7,1.6,1.6v44.1
+	C387.7,599.1,387,599.9,386.1,599.9z"/>
+<text transform="matrix(1 0 0 1 97.2592 583.3378)" class="st4 st6">11:00am - 5:00pm</text>
+</svg>

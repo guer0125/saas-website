@@ -8,6 +8,8 @@
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/signup.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;0,700;0,900;1,500&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -17,7 +19,94 @@
   </ul>
 
   <header>
+    <nav class="island-1-4">
+      <ul class="nav list-group">
+        <li class="wellpayed">WELLPAYED</li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="tour.html">Tour</a></li>
+        <li><a class="current" href="sign-up.html">Sign-up</a></li>
+      </ul>
+    </nav>
 
+    <div class="container-banner">
+      <img class="img-flex chop" src="images/sign-up.jpg" alt="">
+    </div>
   </header>
 
+<form class="header-container right-banner">
+  <div class="form-container grey-border gutter-2 pad-b-1-2">
+    <h2 class="pad-b-1-2 pad-t-1-2">WELLPAYED</h2>
+    <div class="push-1-2">
+      <label for="email">Email</label>
+      <input id="email" type="email" placeholder="me@me.com" required>
+    </div>
+    <div class="push-1-2">
+      <label for="Password">Password</label>
+      <input id="password" type="password" minlenght="6">
+    </div>
+    <div class="push-1-2" milli>
+      <input type="checkbox" id="remember" name="remember" value="remember">
+      <label for="remember"> Remember this device </label><br>
+    </div>
+    <div class="push-1-2">
+      <button class="btn btn-colour" type="button" name="button">Sign In</button>
+    </div>
+    <p class="push-1-2">OR</p>
+    <div class="push-1-2">
+      <button class="btn btn-colour" type="button" name="button">Google Sign Up</button>
+    </div>
+    <a href="#" class="push-1-2">Forgot my password</a>
+      <button class="btn btn-colour">Get Started</button>
+  </div>
+</form>
+
+<div class="center-content-horizontal push-2 pad-t">
+  <a class="icon-link gutter" href="./tour.html#payroll-id">
+    <img  class="i-96" src="images/payroll.svg" alt="">
+  <a class="icon-link gutter" href="./tour.html#benefits-id">
+    <img class="i-96" src="images/benefits.svg" alt="">
+  </a>
+  <a class="icon-link gutter" href="#">
+    <img class="i-96" src="images/price.svg" alt="">
+  </a>
+  <a class="icon-link gutter" href="./tour.html#timetool-id">
+    <img class="i-96" src="images/timetools.svg" alt="">
+  </a>
+</div>
+
+<footer class="footer gutter-2 pad-t-1-2 grid">
+  <div class="unit xs-1 m-1-4 l-1-4">
+    <h3 class="push-0 push-1-2 mega">Address</h3>
+    <ul class="list-group micro">
+      <li>24th Cumberland St.</li>
+      <li>Ottawa,</li>
+      <li>Ontario</li>
+      <li>K1V8T6</li>
+    </ul>
+  </div>
+  <div class="unit xs-1 m-1-4 l-1-4">
+    <h3 class="push-1-2 mega">Company</h3>
+    <dl class="micro">
+      <dt class="bold">Monday-Friday</dt>
+        <dd class="push-0 push-1-8">8:00AM to 11:00PM</dd>
+      <dt class="bold">Saturday-Sunday</dt>
+        <dd>9:00AM to 12:00PM</dd>
+    </dl>
+  </div>
+  <div class="unit xs-1 m-1-4 l-1-4">
+    <h3 class="push-1-2 mega">Contact</h3>
+    <ul class="list-group micro">
+      <li>HR@Humanresources.com</li>
+      <li>info@Humanresources.com</li>
+      <li>contact@Humanresources.com</li>
+    </ul>
+  </div>
+
+  <ul class="social list-group img-flex unit xs-1 s-1 m-1 l-1-4">
+    <li><a href="#"><img src="images/instagram.svg" alt="Instagram"></a></li>
+    <li><a href="#"><img src="images/facebook.svg" alt="Facebook"></a></li>
+    <li><a href="#"><img src="images/youtube.svg" alt="YouTube"></a></li>
+  </ul>
+</footer>
+<small class="copyright text-center unit xs-1 m-1 l-1">© HR WELLPAYED</small>
 </body>
